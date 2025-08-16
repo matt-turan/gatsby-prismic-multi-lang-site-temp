@@ -1,0 +1,28 @@
+// color
+$primary-bg-color: #34332D;
+$primary-bg-light-color: #F8F6F3;
+$primary-text-color: #6F6D63;
+$text-light-grey: #F8F6F3;
+
+
+// screen
+$breakpoint-xxl-devices: 1920px;
+$breakpoint-l-laptop   : 1620px;
+$breakpoint-laptop     : 1368px;
+$breakpoint-xl-devices : 1200px;
+$breakpoint-l-devices  : 992px;
+$breakpoint-m-devices  : 768px;
+$breakpoint-s-devices  : 576px;
+
+$font-title: freight-display-pro, serif;
+$font-desc: aktiv-grotesk, sans-serif;
+
+// prefix
+@mixin prefix($property, $value, $prefixes: ()){
+    @each $prefix in $prefixes{
+      #{'-' + $prefix + '-' + $property}: $value;
+    }
+
+    // Output standard non-prefixed declaration
+    #{$property}: $value;
+}

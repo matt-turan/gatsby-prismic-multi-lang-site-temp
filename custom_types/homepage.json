@@ -1,0 +1,168 @@
+{
+  "Main" : {
+    "document_display_name" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading1",
+        "label" : "document_display_name"
+      }
+    },
+    "banner_title" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading1",
+        "label" : "banner_title",
+        "placeholder" : "Banner Title"
+      }
+    },
+    "banner_background" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : {
+          "width" : 2000
+        },
+        "thumbnails" : [ ],
+        "label" : "banner_background"
+      }
+    },
+    "body" : {
+      "type" : "Slices",
+      "fieldset" : "Slice zone",
+      "config" : {
+        "labels" : null,
+        "choices" : {
+          "featured_product_section" : {
+            "type" : "Slice",
+            "fieldset" : "Featured Product Section",
+            "description" : "Featured Products Section",
+            "icon" : "local_bar",
+            "display" : "grid",
+            "non-repeat" : {
+              "section_subtitle" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "single" : "heading6",
+                  "label" : "section_subtitle",
+                  "placeholder" : "Featured Product Section Subtitle"
+                }
+              },
+              "section_title" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "single" : "heading2",
+                  "label" : "section_title",
+                  "placeholder" : "Featured Product Section Title"
+                }
+              },
+              "section_description" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph",
+                  "label" : "section_description",
+                  "placeholder" : "Featured product section description"
+                }
+              }
+            },
+            "repeat" : {
+              "bottle_image" : {
+                "type" : "Image",
+                "config" : {
+                  "constraint" : {
+                    "width" : 350
+                  },
+                  "thumbnails" : [ ],
+                  "label" : "bottle_image"
+                }
+              },
+              "product_title" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "single" : "heading6",
+                  "label" : "product_title",
+                  "placeholder" : "Product Title"
+                }
+              },
+              "product_description" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "single" : "paragraph",
+                  "allowTargetBlank" : true,
+                  "label" : "Product Description",
+                  "placeholder" : "Product Description"
+                }
+              },
+              "product_link_text" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "single" : "paragraph",
+                  "label" : "product_link_text",
+                  "placeholder" : "Product Link Text"
+                }
+              },
+              "product_link" : {
+                "type" : "Link",
+                "config" : {
+                  "label" : "product_link",
+                  "placeholder" : "Product Link",
+                  "select" : null
+                }
+              }
+            }
+          },
+          "who_we_are_section" : {
+            "type" : "Slice",
+            "fieldset" : "Who We Are Section",
+            "description" : "Who we are section",
+            "icon" : "filter_none",
+            "display" : "list",
+            "non-repeat" : {
+              "section_title" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "single" : "heading2",
+                  "label" : "Section Title",
+                  "placeholder" : "Who We Are Section Title"
+                }
+              },
+              "section_description" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph",
+                  "label" : "Section Description",
+                  "placeholder" : "Who we are section description"
+                }
+              },
+              "section_link_text" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "single" : "paragraph",
+                  "label" : "section_link_text",
+                  "placeholder" : "Who we are section link text"
+                }
+              },
+              "section_link" : {
+                "type" : "Link",
+                "config" : {
+                  "label" : "section_link",
+                  "placeholder" : "Link",
+                  "select" : null
+                }
+              },
+              "section_image" : {
+                "type" : "Image",
+                "config" : {
+                  "constraint" : {
+                    "width" : 960
+                  },
+                  "thumbnails" : [ ],
+                  "label" : "Section Image"
+                }
+              }
+            },
+            "repeat" : { }
+          }
+        }
+      }
+    }
+  }
+}

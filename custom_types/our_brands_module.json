@@ -1,0 +1,56 @@
+{
+    "Main": {
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": {},
+          "choices": {
+            "customer_logos": {
+              "type": "Slice",
+              "fieldset": "Customer logos",
+              "description": "Display a list of your customers logos",
+              "icon": "person",
+              "display": "list",
+              "non-repeat": {},
+              "repeat": {
+                "logo": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {},
+                    "thumbnails": [],
+                    "label": "Logo"
+                  }
+                },
+                "brand_name": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading5,heading6",
+                    "label": "Brand name",
+                    "placeholder": "Enter brand name"
+                  }
+                },
+                "brand_description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph",
+                    "allowTargetBlank": true,
+                    "label": "brand_description",
+                    "placeholder": "Enter Brand Description"
+                  }
+                },
+                "link_to_brand": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Link to Brand",
+                    "placeholder": "Button Link",
+                    "select": null
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }

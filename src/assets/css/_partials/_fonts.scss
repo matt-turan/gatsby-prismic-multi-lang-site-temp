@@ -1,0 +1,384 @@
+@import url("https://use.typekit.net/ljz3mje.css");
+// @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400;500;700;900&display=swap');
+
+/*
+Adobe Text Pro Bold
+font-family: adobe-text-pro, serif;
+font-weight: 700;
+font-style: normal;
+
+Adobe Text Pro Bold Italic
+font-family: adobe-text-pro, serif;
+font-weight: 700;
+font-style: italic;
+
+Adobe Text Pro Italic
+font-family: adobe-text-pro, serif;
+font-weight: 400;
+font-style: italic;
+
+Adobe Text Pro Regular
+font-family: adobe-text-pro, serif;
+font-weight: 400;
+font-style: normal;
+
+Adobe Text Pro Semibold
+font-family: adobe-text-pro, serif;
+font-weight: 600;
+font-style: normal;
+
+Adobe Text Pro Semibold Italic
+font-family: adobe-text-pro, serif;
+font-weight: 600;
+font-style: italic;
+*/
+
+/*
+Mrs Eaves OT Bold Italic
+font-family: mrs-eaves, serif;
+font-weight: 700;
+font-style: italic;
+
+Mrs Eaves OT Roman
+font-family: mrs-eaves, serif;
+font-weight: 400;
+font-style: normal;
+
+Mrs Eaves OT Bold
+font-family: mrs-eaves, serif;
+font-weight: 700;
+font-style: normal;
+
+Mrs Eaves OT Italic
+font-family: mrs-eaves, serif;
+font-weight: 400;
+font-style: italic;
+
+Mrs Eaves Roman Lining
+font-family: mrs-eaves-roman-lining, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Mrs Eaves Roman Small Caps
+font-family: mrs-eaves-roman-small-caps, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Mrs Eaves Roman All Small Caps
+font-family: mrs-eaves-roman-all-small-ca, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Mrs Eaves Roman All Petite Caps
+font-family: mrs-eaves-roman-all-petite-c, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Mrs Eaves Roman Petite Caps
+font-family: mrs-eaves-roman-petite-caps, sans-serif;
+font-weight: 400;
+font-style: normal;
+*/
+
+/*
+Vendetta OT Medium Italic
+font-family: vendetta, serif;
+font-weight: 500;
+font-style: italic;
+
+Vendetta OT Bold
+font-family: vendetta, serif;
+font-weight: 700;
+font-style: normal;
+
+Vendetta OT Light
+font-family: vendetta, serif;
+font-weight: 300;
+font-style: normal;
+
+Vendetta OT Medium
+font-family: vendetta, serif;
+font-weight: 500;
+font-style: normal;
+
+Vendetta OT Light Italic
+font-family: vendetta, serif;
+font-weight: 300;
+font-style: italic;
+*/
+
+/*
+Mrs Eaves OT Bold Italic
+font-family: mrs-eaves, serif;
+font-weight: 700;
+font-style: italic;
+
+Mrs Eaves OT Roman
+font-family: mrs-eaves, serif;
+font-weight: 400;
+font-style: normal;
+
+Mrs Eaves OT Bold
+font-family: mrs-eaves, serif;
+font-weight: 700;
+font-style: normal;
+
+Mrs Eaves OT Italic
+font-family: mrs-eaves, serif;
+font-weight: 400;
+font-style: italic;
+
+Mrs Eaves Roman Lining
+font-family: mrs-eaves-roman-lining, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Mrs Eaves Roman Small Caps
+font-family: mrs-eaves-roman-small-caps, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Mrs Eaves Roman All Small Caps
+font-family: mrs-eaves-roman-all-small-ca, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Mrs Eaves Roman All Petite Caps
+font-family: mrs-eaves-roman-all-petite-c, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Mrs Eaves Roman Petite Caps
+font-family: mrs-eaves-roman-petite-caps, sans-serif;
+font-weight: 400;
+font-style: normal;
+*/
+
+/*
+MerriweatherUltraBold Regular
+font-family: merriweather, serif;
+font-weight: 900;
+font-style: normal;
+
+Merriweather Bold
+font-family: merriweather, serif;
+font-weight: 700;
+font-style: normal;
+
+Merriweather Regular
+font-family: merriweather, serif;
+font-weight: 400;
+font-style: normal;
+
+MerriweatherLight Regular
+font-family: merriweather, serif;
+font-weight: 300;
+font-style: normal;
+
+Merriweather Italic
+font-family: merriweather, serif;
+font-weight: 400;
+font-style: italic;
+
+MerriweatherLight Italic
+font-family: merriweather, serif;
+font-weight: 300;
+font-style: italic;
+
+MerriweatherUltraBold Italic
+font-family: merriweather, serif;
+font-weight: 900;
+font-style: italic;
+
+Merriweather Bold Italic
+font-family: merriweather, serif;
+font-weight: 700;
+font-style: italic;
+*/
+
+/*
+FreightBig Pro Bold
+font-family: freight-big-pro, serif;
+font-weight: 700;
+font-style: normal;
+
+FreightBig Pro Bold Italic
+font-family: freight-big-pro, serif;
+font-weight: 700;
+font-style: italic;
+
+FreightBig Pro Book
+font-family: freight-big-pro, serif;
+font-weight: 400;
+font-style: normal;
+
+FreightBig Pro Book Italic
+font-family: freight-big-pro, serif;
+font-weight: 400;
+font-style: italic;
+
+FreightDisp Pro Bold
+font-family: freight-display-pro, serif;
+font-weight: 700;
+font-style: normal;
+
+FreightDisp Pro Bold Italic
+font-family: freight-display-pro, serif;
+font-weight: 700;
+font-style: italic;
+
+FreightDisp Pro Book
+font-family: freight-display-pro, serif;
+font-weight: 400;
+font-style: normal;
+
+FreightDisp Pro Book Italic
+font-family: freight-display-pro, serif;
+font-weight: 400;
+font-style: italic;
+
+FreightDisp Pro Light
+font-family: freight-display-pro, serif;
+font-weight: 300;
+font-style: normal;
+
+FreightDisp Pro Light Italic
+font-family: freight-display-pro, serif;
+font-weight: 300;
+font-style: italic;
+
+FreightDisp Pro Medium
+font-family: freight-display-pro, serif;
+font-weight: 500;
+font-style: normal;
+
+FreightDisp Pro Medium Italic
+font-family: freight-display-pro, serif;
+font-weight: 500;
+font-style: italic;
+
+FreightDisp Pro Semibold
+font-family: freight-display-pro, serif;
+font-weight: 600;
+font-style: normal;
+
+FreightDisp Pro Semibold Italic
+font-family: freight-display-pro, serif;
+font-weight: 600;
+font-style: italic;
+
+FreightMacro Pro Bold
+font-family: freight-macro-pro, serif;
+font-weight: 700;
+font-style: normal;
+
+FreightMacro Pro Bold Italic
+font-family: freight-macro-pro, serif;
+font-weight: 700;
+font-style: italic;
+
+FreightMacro Pro Book
+font-family: freight-macro-pro, serif;
+font-weight: 400;
+font-style: normal;
+
+FreightMacro Pro Book Italic
+font-family: freight-macro-pro, serif;
+font-weight: 400;
+font-style: italic;
+
+FreightMicro Pro Book
+font-family: freight-micro-pro, serif;
+font-weight: 400;
+font-style: normal;
+
+FreightMicro Pro Book Italic
+font-family: freight-micro-pro, serif;
+font-weight: 400;
+font-style: italic;
+
+FreightMicro Pro Bold
+font-family: freight-micro-pro, serif;
+font-weight: 700;
+font-style: normal;
+
+FreightMicro Pro Bold Italic
+font-family: freight-micro-pro, serif;
+font-weight: 700;
+font-style: italic;
+
+FreightBigCmp Pro Book
+font-family: freightbigcmp-pro, serif;
+font-weight: 400;
+font-style: normal;
+
+FreightBigCmp Pro Book Italic
+font-family: freightbigcmp-pro, serif;
+font-weight: 400;
+font-style: italic;
+
+FreightBigCmp Pro Bold
+font-family: freightbigcmp-pro, serif;
+font-weight: 700;
+font-style: normal;
+
+FreightBigCmp Pro Bold Italic
+font-family: freightbigcmp-pro, serif;
+font-weight: 700;
+font-style: italic;
+
+FreightDispCmp Pro Book
+font-family: freightdispcmp-pro, serif;
+font-weight: 400;
+font-style: normal;
+
+FreightDispCmp Pro Book Italic
+font-family: freightdispcmp-pro, serif;
+font-weight: 400;
+font-style: italic;
+
+FreightDispCmp Pro Bold
+font-family: freightdispcmp-pro, serif;
+font-weight: 700;
+font-style: normal;
+
+FreightDispCmp Pro Bold Italic
+font-family: freightdispcmp-pro, serif;
+font-weight: 700;
+font-style: italic;
+
+Aktiv Grotesk Regular
+font-family: aktiv-grotesk, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Aktiv Grotesk Light
+font-family: aktiv-grotesk, sans-serif;
+font-weight: 300;
+font-style: normal;
+*/
+
+@font-face {
+    font-family: 'Zen Kaku Gothic Antique Black', sans-serif;
+    src: url('../fonts/ZenKakuGothicAntique-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Zen Kaku Gothic Antique Bold', sans-serif;
+    src: url('../fonts/ZenKakuGothicAntique-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Zen Kaku Gothic Antique Light', sans-serif;
+    src: url('../fonts/ZenKakuGothicAntique-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Zen Kaku Gothic Antique Medium', sans-serif;
+    src: url('../fonts/ZenKakuGothicAntique-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Zen Kaku Gothic Antique Regular', sans-serif;
+    src: url('../fonts/ZenKakuGothicAntique-Regular.ttf');
+}

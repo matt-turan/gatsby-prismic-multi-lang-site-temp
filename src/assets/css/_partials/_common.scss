@@ -1,0 +1,138 @@
+/* FONT */
+h1, h2, h3 h4, .font-title{
+    font-family: freight-display-pro, serif;
+    font-weight: 500;
+    font-style: normal;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 36px;
+}
+h4{
+    font-size: 32px;
+}
+h5, h6{
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p, button, div{
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+}
+.small{
+    font-size: 16px;
+    font-weight: 300;
+}
+a{
+    text-decoration: unset;
+    color: inherit;
+}
+strong{
+    font-weight: 500;
+}
+
+/* GRID */
+@media (min-width: 1200px){
+    .container{
+        max-width: 1520px;
+        margin: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+/* COMPONENT */
+.btn{
+    font-size: 18px !important;
+    border: 1px solid #fff;
+    border-radius: 80px;
+    color: inherit !important;
+    margin: 20px;
+    line-height: 1;
+    padding: 12px;
+    min-width: 150px;
+    padding-top: 14px;
+    &:hover, &:focus{
+        background-color: #fff;
+        color: $primary-bg-color !important;
+    }
+    &.btn-primary-1{
+        border-color: $primary-text-color;
+        color: $primary-text-color;
+        margin-left: 0;
+        padding: 13px 30px 10px 30px;
+        transition: all 0.3s ease-out;
+        span{
+            display: block;
+            overflow: hidden;
+            transition: opacity 0.5s ease-out;
+            transition-delay: 0.1s;
+            height: 18px;
+        }
+        .btn-hover{
+            opacity: 0;
+            visibility: hidden;
+            width: 1px;
+            height: 0;
+            overflow: hidden;
+        }
+        &:hover, &:focus{
+            width: 220px !important;
+            background-color: $primary-text-color;
+            color: #fff !important;
+            span:not(.btn-hover){
+                opacity: 0;
+                visibility: hidden;
+                width: 1px;
+                height: 0;
+            }
+            .btn-hover{
+                opacity: 1;
+                visibility: visible;
+                width: 160px;
+                height: auto;
+            }
+        }
+    }
+}
+
+.swiper-button-prev{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 40px;
+    svg{
+        width: 30px;
+        height: 30px;
+    }
+}
+.swiper-button-next{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 40px;
+    svg{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+button{
+    &:focus, &:hover{
+        box-shadow: unset !important;
+    }
+}

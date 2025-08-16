@@ -1,0 +1,18 @@
+.age-gate-wrapper{
+    background: $primary-bg-color;
+    color: #fff;
+    height: 100vh;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    .header{
+        flex: 0 0 90px;
+    }
+    .age-gate{
+        flex: 1;
+        padding-top: 90px;
+    }
+    .age-gate__copyright{
+        flex: 0 0 10%;
+    }
+}

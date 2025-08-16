@@ -1,0 +1,44 @@
+.header{
+    min-height: 90px;
+    width: 100%;
+    position: absolute;
+    border-bottom: 1px solid $text-light-grey;
+    color: $text-light-grey;
+    .nav-item{
+        font-size: 17px;
+        padding: 0 25px;
+    }
+}
+.footer{
+    background-color: $primary-bg-color;
+    color: #fff;
+
+    .footer__top{
+        padding: 80px 0;
+        .navbar{
+            .nav-item{
+                padding: 18px 0;
+            }
+        }
+        .footer__address{
+            align-self: flex-end;
+            padding: 18px 0;
+        }
+    }
+    .footer__bottom{
+        min-height: 90px;
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        font-size: 17px;
+        .footer__privacy{
+            a{
+                padding: 0 10px;
+                &:first-child{
+                    padding-left: 0;
+                }
+                &:last-child{
+                    border-left: 1px solid #fff;
+                }
+            }
+        }
+    }
+}

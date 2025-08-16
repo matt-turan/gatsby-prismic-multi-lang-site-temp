@@ -1,0 +1,43 @@
+{
+    "Main": {
+      "our_brand_title": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "Our Brand Title",
+          "placeholder": "Enter our brands title"
+        }
+      },
+      "our_brands_description": {
+        "type": "StructuredText",
+        "config": {
+          "single": "paragraph",
+          "allowTargetBlank": true,
+          "label": "Our brands description",
+          "placeholder": "Enter our brands description"
+        }
+      },
+      "our-brand-logo": {
+        "type": "Link",
+        "config": {
+          "select": "document",
+          "customtypes": [
+            "our_brands_module"
+          ],
+          "label": "our-brand-logo",
+          "placeholder": "Enter our brand logos"
+        }
+      },
+      "our_brands_logos": {
+        "type": "Link",
+        "config": {
+          "select": "document",
+          "customtypes": [
+            "our_brands_module"
+          ],
+          "label": "Our brands logos",
+          "placeholder": "Our brands logos"
+        }
+      }
+    }
+}
